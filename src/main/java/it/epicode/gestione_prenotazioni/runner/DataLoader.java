@@ -23,7 +23,6 @@ public class DataLoader implements ApplicationRunner {
 
     @Autowired
     private UtenteRepository utenteRepository;
-
     @Override
     public void run(ApplicationArguments args) throws Exception {
 
