@@ -29,7 +29,6 @@ public class DataLoader implements ApplicationRunner {
         utente.setNomeCompleto("Mario Rossi");
         utente.setEmail("mario.rossi@example.com");
         utenteRepository.save(utente);
-
         Edificio edificio = new Edificio();
         edificio.setNome("Edificio 2");
         edificio.setIndirizzo("Via Caldieri 1");
