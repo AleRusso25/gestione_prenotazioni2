@@ -6,9 +6,7 @@ import it.epicode.gestione_prenotazioni.model.Prenotazione;
 import it.epicode.gestione_prenotazioni.repository.PrenotazioneRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
-
 @Service
 public class PrenotazioneService {
     @Autowired
