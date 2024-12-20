@@ -25,7 +25,6 @@ public class DataLoader implements ApplicationRunner {
     private UtenteRepository utenteRepository;
     @Override
     public void run(ApplicationArguments args) throws Exception {
-
         Utente utente = new Utente();
         utente.setNomeCompleto("Mario Rossi");
         utente.setEmail("mario.rossi@example.com");
